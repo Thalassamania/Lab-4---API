@@ -14,8 +14,11 @@ Podrá ver ejemplos de como correr la aplicación, si algún modelo está genera
 Adicionalmente se puede explorar el API sin necesidad de entrar a docs. En el informe se encuentran ejemplos de como consumir los endpoints.
 
 a.	predictModel{i} : predice un solo resultado, se espera una entrada JSON, retorna los admission points. 
+
 b.	predictionsModel{i} : Predice uno o más resultados, se espera una entrada JSON, retorna una lista de admission points.
+
 c.	scoreModel{i} : retorna el valor de predicción (Explained Variance Score) y valor absoluto medio (MAE) del modelo {i}.
+
 d.	trainModel1{i} : se espera una entrada de JSON con valores para entrenar el modelo, retorna el valor de predicción (Explained           Variance Score) y valor absoluto medio (MAE) del modelo {i}.
 
 Las {i}, representan valores de 1 a 3 (uno para cada modelo), se debe replazar el simbilo por el del modelo que se desea observar. 
